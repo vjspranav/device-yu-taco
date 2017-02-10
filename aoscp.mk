@@ -22,10 +22,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/yu/taco/device.mk)
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/aoscp/configs/common.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_taco
+PRODUCT_NAME := aoscp_taco
 PRODUCT_DEVICE := taco
 PRODUCT_BRAND := YU
 PRODUCT_MODEL := taco
