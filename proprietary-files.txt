@@ -1,75 +1,86 @@
 # Audio
-etc/drc/drc_cfg_5.1.txt
-etc/drc/drc_cfg_AZ.txt
-etc/surround_sound_3mic/surround_sound_rec_5.1.cfg
-etc/surround_sound_3mic/surround_sound_rec_AZ.cfg
-lib/soundfx/libdirac.so
-lib/libDiracAPI_SHARED.so
-vendor/etc/diracmobile.config
-vendor/lib/libacdb-fts.so
-vendor/lib/libacdbloader.so
-vendor/lib/libacdbmapper.so
-vendor/lib/libacdbrtac.so
-vendor/lib/libadiertac.so
-vendor/lib/libadm.so
-vendor/lib/libaudcal.so
-vendor/lib/libaudioalsa.so
-vendor/lib/libaudiodevarb.so
-vendor/lib/libdrc.so
-vendor/lib/libhwdaphal.so
-vendor/lib/libqct_resampler.so
-vendor/lib/libsurround_3mic_proc.so
-vendor/lib/soundfx/libqcbassboost.so
-vendor/lib/soundfx/libqcreverb.so
-vendor/lib/soundfx/libqcvirt.so
-vendor/lib64/libacdb-fts.so
-vendor/lib64/libacdbloader.so
-vendor/lib64/libacdbmapper.so
-vendor/lib64/libacdbrtac.so
-vendor/lib64/libadiertac.so
-vendor/lib64/libaudcal.so
-vendor/lib64/libaudioalsa.so
-vendor/lib64/libaudiodevarb.so
-vendor/lib64/libhwdaphal.so
-vendor/lib64/soundfx/libqcbassboost.so
-vendor/lib64/soundfx/libqcreverb.so
-vendor/lib64/soundfx/libqcvirt.so
-
-system/bin/ptt_socket_app
+#etc/drc/drc_cfg_5.1.txt
+#etc/drc/drc_cfg_AZ.txt
+#etc/surround_sound_3mic/surround_sound_rec_5.1.cfg
+#etc/surround_sound_3mic/surround_sound_rec_AZ.cfg
+####lib/soundfx/libdirac.so
+#lib/libDiracAPI_SHARED.so
+#vendor/etc/diracmobile.config
+#vendor/lib/libacdb-fts.so
+#vendor/lib/libacdbloader.so
+#vendor/lib/libacdbmapper.so
+#vendor/lib/libacdbrtac.so
+#vendor/lib/libadiertac.so
+#vendor/lib/libadm.so
+#vendor/lib/libaudcal.so
+#vendor/lib/libaudioalsa.so
+#vendor/lib/libaudiodevarb.so
+#vendor/lib/libdrc.so
+#vendor/lib/libhwdaphal.so
+#vendor/lib/libqct_resampler.so
+#vendor/lib/libsurround_3mic_proc.so
+#vendor/lib/soundfx/libqcbassboost.so
+#vendor/lib/soundfx/libqcreverb.so
+#vendor/lib/soundfx/libqcvirt.so
+#vendor/lib64/libacdb-fts.so
+#vendor/lib64/libacdbloader.so
+#vendor/lib64/libacdbmapper.so
+#vendor/lib64/libacdbrtac.so
+#vendor/lib64/libadiertac.so
+#vendor/lib64/libaudcal.so
+#vendor/lib64/libaudioalsa.so
+#vendor/lib64/libaudiodevarb.so
+#vendor/lib64/libhwdaphal.so
+#vendor/lib64/soundfx/libqcbassboost.so
+#vendor/lib64/soundfx/libqcreverb.so
+#vendor/lib64/soundfx/libqcvirt.so#
+#
+#system/bin/ptt_socket_app
 
 # Audio ACDB
-etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb
-etc/acdbdata/MTP/MTP_General_cal.acdb
-etc/acdbdata/MTP/MTP_Global_cal.acdb
-etc/acdbdata/MTP/MTP_Handset_cal.acdb
-etc/acdbdata/MTP/MTP_Hdmi_cal.acdb
-etc/acdbdata/MTP/MTP_Headset_cal.acdb
-etc/acdbdata/MTP/MTP_Speaker_cal.acdb
+#etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb
+#etc/acdbdata/MTP/MTP_General_cal.acdb
+#etc/acdbdata/MTP/MTP_Global_cal.acdb
+#etc/acdbdata/MTP/MTP_Handset_cal.acdb
+#etc/acdbdata/MTP/MTP_Hdmi_cal.acdb
+#etc/acdbdata/MTP/MTP_Headset_cal.acdb
+#etc/acdbdata/MTP/MTP_Speaker_cal.acdb
 
 # Camera configs
-bin/mm-qcamera-daemon
-etc/camera/csidtg_camera.xml
-etc/camera/csidtg_chromatix.xml
-etc/camera/msm8953_camera.xml
-etc/camera/ov13850_chromatix.xml
-etc/camera/ov13850_q13v06k_chromatix.xml
-etc/camera/ov16880_chromatix.xml
-etc/camera/ov4688_chromatix.xml
-etc/camera/ov5670_chromatix.xml
-etc/camera/ov5670_f5670bq_chromatix.xml
-etc/camera/ov8856_chromatix.xml
-etc/camera/ov8858_chromatix.xml
-etc/camera/ov8865_chromatix.xml
-etc/camera/s5k3l8_chromatix.xml
-etc/camera/s5k3l8_f3l8yam_chromatix.xml
-etc/camera/s5k3l8_mono_chromatix.xml
-etc/camera/s5k3m2xm_chromatix.xml
-etc/camera/s5k3m2xm_chromatix_bear.xml
-etc/camera/s5k3m2xx_chromatix.xml
-etc/camera/s5k3p3_f3l8yam_chromatix.xml
-etc/camera/s5k4h8_chromatix.xml
+#bin/mm-qcamera-daemon
+#etc/camera/csidtg_camera.xml
+#etc/camera/csidtg_chromatix.xml
+#etc/camera/msm8953_camera.xml
+#etc/camera/ov13850_chromatix.xml
+#etc/camera/ov13850_q13v06k_chromatix.xml
+#etc/camera/ov16880_chromatix.xml
+#etc/camera/ov4688_chromatix.xml
+#etc/camera/ov5670_chromatix.xml
+#etc/camera/ov5670_f5670bq_chromatix.xml
+#etc/camera/ov8856_chromatix.xml
+#etc/camera/ov8858_chromatix.xml
+#etc/camera/ov8865_chromatix.xml
+#etc/camera/s5k3l8_chromatix.xml
+#etc/camera/s5k3l8_f3l8yam_chromatix.xml
+#etc/camera/s5k3l8_mono_chromatix.xml#
+#etc/camera/s5k3m2xm_chromatix.xml
+#etc/camera/s5k3m2xm_chromatix_bear.xml
+#etc/camera/s5k3m2xx_chromatix.xml
+#etc/camera/s5k3p3_f3l8yam_chromatix.xml
+#etc/camera/s5k4h8_chromatix.xml
+#
+# Camera
+# Audio ACDB
+etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb:vendor/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb
+etc/acdbdata/QRD/QRD_General_cal.acdb:vendor/etc/acdbdata/QRD/QRD_General_cal.acdb
+etc/acdbdata/QRD/QRD_Global_cal.acdb:vendor/etc/acdbdata/QRD/QRD_Global_cal.acdb
+etc/acdbdata/QRD/QRD_Handset_cal.acdb:vendor/etc/acdbdata/QRD/QRD_Handset_cal.acdb
+etc/acdbdata/QRD/QRD_Hdmi_cal.acdb:vendor/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb
+etc/acdbdata/QRD/QRD_Headset_cal.acdb:vendor/etc/acdbdata/QRD/QRD_Headset_cal.acdb
+etc/acdbdata/QRD/QRD_Speaker_cal.acdb:vendor/etc/acdbdata/QRD/QRD_Speaker_cal.acdb
 
 # Camera
+bin/mm-qcamera-daemon:vendor/bin/mm-qcamera-daemon
 vendor/lib/libChamomilePA.so
 vendor/lib/libchromaflash.so
 vendor/lib/libflash_pmic.so
@@ -80,7 +91,10 @@ vendor/lib/libllvd_smore.so
 vendor/lib/libllvd_sw_tnr.so
 vendor/lib/libmmcamera2_sensor_modules.so
 vendor/lib/libmmcamera_atmel_at24c32e_eeprom.so
-vendor/lib/libmmcamera_cac3_lib.so
+vendor/lib/libmmcamera_chromaflash_lib.so
+vendor/lib/libmmcamera_csidtg.so
+vendor/lib/libmmcamera_dbg.so
+vendor/lib/libmmcamera_dcrf_lib.so
 vendor/lib/libmmcamera_dummyalgo.so
 vendor/lib/libmmcamera_dw9761b_2d_eeprom.so
 vendor/lib/libmmcamera_dw9761b_eeprom.so
@@ -482,6 +496,7 @@ vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_snapshot.so
 vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_zsl_preview_dw9763.so
 vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_zsl_video_dw9763.so
 
+##here
 # Camera firmware
 etc/firmware/cpp_firmware_v1_10_0.fw
 etc/firmware/cpp_firmware_v1_1_1.fw
@@ -520,6 +535,8 @@ lib64/libfpservice.so
 # FM
 bin/fm_qsoc_patches
 
+## here
+
 # Thermal (7.11.23)
 vendor/bin/thermal-engine
 vendor/lib/libthermalclient.so
@@ -551,3 +568,21 @@ etc/firmware/goodixfp.b04
 etc/firmware/goodixfp.b05
 etc/firmware/goodixfp.b06
 etc/firmware/goodixfp.mdt
+
+# Display calibration
+etc/qdcm_calib_data_ili9885_boe_fhd_video_mode_dsi_panel.xml:vendor/etc/qdcm_calib_data_ili9885_boe_fhd_video_mode_dsi_panel.xml
+etc/qdcm_calib_data_nt35532_fhd_video_mode_dsi_panel.xml:vendor/etc/qdcm_calib_data_nt35532_fhd_video_mode_dsi_panel.xml
+etc/qdcm_calib_data_nt35596_tianma_fhd_video_mode_dsi_panel.xml:vendor/etc/qdcm_calib_data_nt35596_tianma_fhd_video_mode_dsi_panel.xml
+etc/qdcm_calib_data_otm1911_fhd_video_mode_dsi_panel.xml:vendor/etc/qdcm_calib_data_otm1911_fhd_video_mode_dsi_panel.xml
+etc/qdcm_calib_data_r63350_ebbg_fhd_video_mode_dsi_panel.xml:vendor/etc/qdcm_calib_data_r63350_ebbg_fhd_video_mode_dsi_panel.xml
+
+# Fingerprint
+bin/gx_fpd:vendor/bin/gx_fpd
+lib/hw/fingerprint.searchf.so:vendor/lib/hw/fingerprint.searchf.so
+lib64/hw/fingerprint.goodix.so:vendor/lib64/hw/fingerprint.goodix.so
+lib64/hw/fingerprint.searchf.so:vendor/lib64/hw/fingerprint.searchf.so
+lib64/hw/gxfingerprint.default.so:vendor/lib64/hw/gxfingerprint.default.so
+lib64/libfp_client.so:vendor/lib64/libfp_client.so
+lib64/libfpnav.so:vendor/lib64/libfpnav.so
+lib64/libfpservice.so:vendor/lib64/libfpservice.so
+>>>>>>> 4e68279... mido: update blobs for oreo
