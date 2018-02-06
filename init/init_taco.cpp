@@ -40,6 +40,8 @@
 char const *heapminfree;
 char const *heapmaxfree;
 
+using android::init::property_set;
+
 static void init_alarm_boot_properties()
 {
     int boot_reason;

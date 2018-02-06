@@ -25,5 +25,6 @@ LOCAL_CFLAGS := -Wall -DANDROID_TARGET=\"$(TARGET_BOARD_PLATFORM)\"
 LOCAL_SRC_FILES := init_taco.cpp
 LOCAL_MODULE := libinit_taco
 LOCAL_STATIC_LIBRARIES := libbase
+LOCAL_STATIC_LIBRARIES := libbase libselinux
 
 include $(BUILD_STATIC_LIBRARY)
