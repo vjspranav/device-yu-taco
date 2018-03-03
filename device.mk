@@ -22,6 +22,13 @@ $(call inherit-product, vendor/yu/taco/taco-vendor.mk)
 # Put ru_RU first in the list, so make it default.
 # PRODUCT_LOCALES := zh_CN
 
+PRODUCT_ENFORCE_RRO_TARGETS := \
+   Bluetooth \
+   Settings \
+   SettingsProvider \
+   SystemUI \
+   framework-res \
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-lineage
