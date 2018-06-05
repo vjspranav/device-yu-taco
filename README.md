@@ -1,4 +1,4 @@
-Copyright 2017 - The Mokee Opensource Project
+Copyright 2018 - The Lineage Opensource Project
 
 Device configuration for YU Yureka 2(_taco_)
 =====================================================
