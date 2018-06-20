@@ -162,8 +162,4 @@ $(shell ln -s /persist/rfs/shared $(TARGET_OUT)/rfs/apq/gnss/shared)
 $(shell ln -s /persist/hlos_rfs/shared $(TARGET_OUT)/rfs/apq/gnss/hlos)
 $(shell ln -s /firmware $(TARGET_OUT)/rfs/apq/gnss/readonly/firmware)
 # END RFS folder structure
-=======
-include device/xiaomi/mido/tftp.mk
->>>>>>> a794e88... mido: Add fpc and goodix symlinks
-
 endif
