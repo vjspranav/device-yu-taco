@@ -32,14 +32,16 @@
 #include <stdlib.h>
 #include <sys/sysinfo.h>
 
-#include "vendor_init.h"
+#include <android-base/properties.h>
+
 #include "property_service.h"
-#include "log.h"
+#include "vendor_init.h"
 #include "util.h"
 
 char const *heapminfree;
 char const *heapmaxfree;
 
+using android::base::GetProperty;
 using android::init::property_set;
 
 static void init_alarm_boot_properties()
@@ -92,10 +94,10 @@ void check_device()
 
 void vendor_load_properties()
 {
-    std::string platform;
+    std::string device;
 
-    platform = property_get("ro.board.platform");
-    if (platform != ANDROID_TARGET)
+    device = GetProperty("ro.lineage.device", "");
+    if (device != ANDROID_TARGET)
         return;
 
     check_device();
