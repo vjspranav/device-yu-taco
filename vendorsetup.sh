@@ -1,3 +1,1 @@
-add_lunch_combo lineage_taco-eng
-add_lunch_combo lineage_taco-userdebug
-add_lunch_combo lineage_taco-user
+add_lunch_combo rr_taco-userdebug
