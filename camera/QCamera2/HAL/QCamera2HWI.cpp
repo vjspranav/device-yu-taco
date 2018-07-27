@@ -6490,7 +6490,7 @@ int32_t QCamera2HardwareInterface::processASDUpdate(
             LOGE("fail sending notification");
             asdBuffer->release(asdBuffer);
         }
->>>>>>> 66dc518... QCamera2: Fixed compilation error for AOSP upgrade
+
     }
 #endif
     return NO_ERROR;
