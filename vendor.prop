@@ -44,6 +44,7 @@ persist.usb.hvdcp.detect=true
 # Bluetooth
 bluetooth.hfp.client=1
 ro.qualcomm.bt.hci_transport=smd
+persist.vendor.bt.enable.splita2dp=false
 ro.bluetooth.hfp.ver=1.7
 qcom.bluetooth.soc=smd
 
@@ -59,6 +60,8 @@ vidc.disable.split.mode=1
 vidc.enc.disable.pq=true
 media.stagefright.legacyencoder=true
 media.stagefright.less-secure=true
+persist.vendor.qti.telephony.vt_cam_interface=1
+
 
 # Cne/Dpm
 persist.cne.feature=1
@@ -187,11 +190,11 @@ persist.timed.enable=true
 net.tcp.2g_init_rwnd=10
 
 # Trim properties
-ro.sys.fw.use_trim_settings=true
-ro.sys.fw.empty_app_percent=50
-ro.sys.fw.trim_empty_percent=100
-ro.sys.fw.trim_cache_percent=100
-ro.sys.fw.trim_enable_memory=2147483648
+ro.vendor.qti.sys.fw.use_trim_settings=true
+ro.vendor.qti.sys.fw.empty_app_percent=50
+ro.vendor.qti.sys.fw.trim_empty_percent=100
+ro.vendor.qti.sys.fw.trim_cache_percent=100
+ro.vendor.qti.sys.fw.trim_enable_memory=2147483648
 
 # Wifi
 wifi.interface=wlan0
